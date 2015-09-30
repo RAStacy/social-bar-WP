@@ -1,0 +1,133 @@
+.comments-link {
+	padding-left: 15px;
+}
+
+.comment_number {
+    font-size: 36px;
+    margin-top: -3px;
+    padding-left: 28px;
+    margin-top: -1px;
+}
+
+.comment_number:hover {
+    font-size: 36px;
+}
+
+.sweetcomments img {
+    margin: 8px 0 0 0;
+    text-align: center;
+}
+
+.entry-utility .addcomment {
+    border-right: 1px solid #C9C5C5;
+}
+
+.entry-utility .addcomment img {
+    margin: 11px 0 0 0px;
+}
+
+.entry-utility .cat-links {
+    margin-top: 17px;
+}
+
+.tweet img {
+	width: 122px;
+}
+
+.facebook, .tweet, .entry-utility .cat-links, .entry-utility .addcomment {
+	text-align: center;
+}
+
+.facebook img {
+	width: 100px;
+}
+
+
+/* XXSmall devices (tablets, 768px and up) */
+@media (max-width: 767px) {
+	.entry-utility {
+		height: 50px;
+		padding: 0;
+	}
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+	.comment_number {
+	    font-size: 36px;
+	    margin-top: -3px;
+	    padding-left: 28px;
+	    margin-top: -1px;
+	}
+
+	.comment_number:hover {
+	    font-size: 36px;
+	}
+
+	.comments-link {
+		padding-left: 15px;
+	}
+
+	.entry-utility .addcomment {
+	    border-right: 0;
+	}
+
+	.sweetcomments img {
+	    width: 89px;
+	    padding-left: 5px;
+	}
+
+	.tweet, .facebook {
+		margin-top: 10px;
+	}
+}
+ 
+
+/* Medium devices (desktops, 992px and up) */
+	@media (min-width: 992px) { 
+
+	.comments-link {
+		padding-left: 10px;
+	}
+
+	.comment_number {
+	    font-size: 36px;
+	    padding-left: 0;
+	}
+
+	.comment_number:hover {
+	    font-size: 36px;
+	}
+
+	.entry-utility .addcomment {
+	    border-right: 1px solid #C9C5C5;
+	}	
+
+	.sweetcomments img {
+	    width: 80px;
+	    padding-left: 7px;
+	}
+
+	.tweet {
+		width: 25%;
+	}
+
+	.tweet, .facebook {
+		margin-top: 0;
+	}
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+	@media (min-width: 1200px) { 
+
+	.comments-link {
+		padding-left: 15px;
+	}
+
+	.sweetcomments img {
+	    width: 89px;
+	}
+}
